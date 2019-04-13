@@ -1,7 +1,7 @@
-languagle: node_js
+language: node_js
 node_js: "11"
 cache: npm 
-befor script: 
+before_script: 
   - npm ci
 
 jobs: 
