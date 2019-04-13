@@ -13,7 +13,7 @@ jobs:
     - stage: Deploy 
     script: npm run deploy 
 
-    branches:
-      only:
-        - master 
+branches:
+  only:
+    - master 
 
