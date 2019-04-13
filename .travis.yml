@@ -5,11 +5,11 @@ node_js: "10"
 jobs: 
   include:
     - stage: Lint 
-    script: npm run lint
+      script: npm run lint
     - stage: Build 
-    script: npm run build 
+      script: npm run build 
     - stage: Deploy 
-    script: npm run deploy 
+      script: npm run deploy 
 
 branches:
   only:
