@@ -1,0 +1,31 @@
+{
+  "name": "techprog",
+  "version": "1.0.0",
+  "description": "University projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "start": "echo \"Error: no test specified\" && exit 0",
+    "lint": "eslint --ignore.path .gitignore .",
+    "deploy": "now alias $(now --token $TechP) sync.mydomainfor.com --teken $TechP",
+    "build": "echo \"Error: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karpokate/TechProg.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karpokate/TechProg/issues"
+  },
+  "homepage": "https://github.com/karpokate/TechProg#readme",
+  "dependencies": {
+    "now": "^15.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-google": "^0.12.0",
+    "eslint-plugin-react": "^7.12.4"
+  }
+}
