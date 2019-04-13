@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 0",
     "start": "echo \"Error: no test specified\" && exit 0",
     "lint": "eslint --ignore.path .gitignore .",
-    "deploy": "now alias $(now --token $TechP) sync.mydomainfor.com --teken $TechP",
+    "deploy": "now -e NODE_DEV=development --token=\"$TechProg\"",
     "build": "echo \"Error: no test specified\" && exit 0"
   },
   "repository": {
